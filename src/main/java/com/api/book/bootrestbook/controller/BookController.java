@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@RestController //using this annotation you don't need to use  @ResponseBody and also for making RESTAPI we will use this
+@RestController //using this annotation you don't need to use  @ResponseBody and also for making RESTAPI we are using this
 public class BookController {
     @Autowired  //you need to use @Component above class
     private BookService bookService;
